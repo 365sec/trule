@@ -3,6 +3,8 @@ Next generation host vulnerability scanning based on version matching rule base
 
 We define the following rules for version based vulnerability detection
 
+-----------
+```
 <Vulns>
 	<Vulnerability added="2004-12-22" id="mysql-bug-report-symlink" modified="2013-08-22" published="2004-05-04" version="2.0">
 		<name>MySQL Bug Report Symlink Vulnerability</name>
@@ -108,3 +110,4 @@ The COM_CHANGE_USER command in MySQL 3.x before 3.23.54, and 4.x to 4.0.6, allow
 		<cnnvd>CNNVD-200212-064</cnnvd>
 	</Vulnerability>
 </Vulns>
+```
