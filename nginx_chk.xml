@@ -1,4 +1,4 @@
-<Vulns>   <Vulnerability added="2014-01-27" gvid_id="GVID-100984" id="nginx-core-2010-0121" modified="2015-01-30" pocid="100984" published="2010-02-05" version="2.0">      
+<Vulns>   <Vulnerability added="2014-01-27" gvid="GVID-100001" modified="2015-01-30" pocid="nginx-core-2010-0121" published="2010-02-05" version="2.0">      
         
         
         <cvss>(AV:N/AC:L/Au:N/C:P/I:P/A:P)</cvss>      
@@ -30,7 +30,7 @@
 
       通常情况下，使用8.3别名文件，可以绕过IDS/IPS的检测和躲避过滤器和文件限制。导致其结果为：只有长版本的文件和文件夹的名称将被限制，且别名将不匹配长文件名。
 
-      引用其8.3的别名甚至可以更改文件的处理，由于文件扩展名的情况下，该文件的扩展名是超过三个字符长的截短文件。此问题是由于像负载平衡和缓存中介系统不具有访问被访问的实际的文件系统，并且在比较用户数据前，需要有限制的转换任意文件名和路径名到8.3别名中，鉴于系统上其他文件或文件夹具有类似名称，可能无法进行。</Description>      <name>Nginx: Windows 8.3文件名假名存在漏洞(CORE-2010-0121)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid_id="GVID-100985" id="nginx-cve-2009-2629" modified="2014-01-27" pocid="100985" published="2009-09-15" version="2.0">      
+      引用其8.3的别名甚至可以更改文件的处理，由于文件扩展名的情况下，该文件的扩展名是超过三个字符长的截短文件。此问题是由于像负载平衡和缓存中介系统不具有访问被访问的实际的文件系统，并且在比较用户数据前，需要有限制的转换任意文件名和路径名到8.3别名中，鉴于系统上其他文件或文件夹具有类似名称，可能无法进行。</Description>      <name>Nginx: Windows 8.3文件名假名存在漏洞(CORE-2010-0121)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid="GVID-100002" modified="2014-01-27" pocid="nginx-cve-2009-2629" published="2009-09-15" version="2.0">      
         
         
         <cvss>(AV:N/AC:L/Au:N/C:P/I:P/A:P)</cvss>      
@@ -70,7 +70,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-200909-302</cnnvd>      <cvsscode>7.5</cvsscode>      <severity>Critical</severity>      <Description>在nginx0.1.0至0.5.37版本，0.6.x至0.6.39版本，0.7.x至0.7.62版本和0.8.x至0.8.15版本的src / HTTP/ ngx_http_parse.c存在缓冲区溢出漏洞允许远程攻击者通过特制的HTTP请求执行任意代码。</Description>      <name>Nginx: 缓冲区下溢漏洞(CVE-2009-2629)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid_id="GVID-100986" id="nginx-cve-2009-3555" modified="2016-05-27" pocid="100986" published="2009-11-09" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-200909-302</cnnvd>      <cvsscode>7.5</cvsscode>      <severity>Critical</severity>      <Description>在nginx0.1.0至0.5.37版本，0.6.x至0.6.39版本，0.7.x至0.7.62版本和0.8.x至0.8.15版本的src / HTTP/ ngx_http_parse.c存在缓冲区溢出漏洞允许远程攻击者通过特制的HTTP请求执行任意代码。</Description>      <name>Nginx: 缓冲区下溢漏洞(CVE-2009-2629)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid="GVID-100003" modified="2016-05-27" pocid="nginx-cve-2009-3555" published="2009-11-09" version="2.0">      
         
         
         <cvss>(AV:N/AC:M/Au:N/C:N/I:P/A:P)</cvss>      
@@ -141,7 +141,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-200911-069</cnnvd>      <cvsscode>5.8</cvsscode>      <severity>Severe</severity>      <Description>Microsoft Internet Information Services (IIS) 7.0，Apache HTTP Server 2.2.14之前版本的mod_ssl，OpenSSL 0.9.8l之前版本，GnuTLS 2.8.5之前版本，Mozilla Network Security Services (NSS) 3.12.4及之前版本，多个Cisco产品，以及其他产品里的TLS协议，和SSL协议3.0，不正确联接重协商握手和现有链接，者允许中间人攻击者插入数据到HTTPS会话中，也可能是其他被TLS或SSL保护的类型会话，发送未认证请求，其是通过后协商语境服务器处理的追溯，与&amp;quot;plaintext injection&amp;quot;攻击相关，又叫&amp;quot;Project Mogul&amp;quot; 问题。</Description>      <name>Nginx: SSL协议存在重新谈判漏洞(CVE-2009-3555)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid_id="GVID-100987" id="nginx-cve-2009-3896" modified="2015-02-13" pocid="100987" published="2009-11-24" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-200911-069</cnnvd>      <cvsscode>5.8</cvsscode>      <severity>Severe</severity>      <Description>Microsoft Internet Information Services (IIS) 7.0，Apache HTTP Server 2.2.14之前版本的mod_ssl，OpenSSL 0.9.8l之前版本，GnuTLS 2.8.5之前版本，Mozilla Network Security Services (NSS) 3.12.4及之前版本，多个Cisco产品，以及其他产品里的TLS协议，和SSL协议3.0，不正确联接重协商握手和现有链接，者允许中间人攻击者插入数据到HTTPS会话中，也可能是其他被TLS或SSL保护的类型会话，发送未认证请求，其是通过后协商语境服务器处理的追溯，与&amp;quot;plaintext injection&amp;quot;攻击相关，又叫&amp;quot;Project Mogul&amp;quot; 问题。</Description>      <name>Nginx: SSL协议存在重新谈判漏洞(CVE-2009-3555)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid="GVID-100004" modified="2015-02-13" pocid="nginx-cve-2009-3896" published="2009-11-24" version="2.0">      
         
         
         <cvss>(AV:N/AC:L/Au:N/C:N/I:N/A:P)</cvss>      
@@ -181,7 +181,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-200911-243</cnnvd>      <cvsscode>5.0</cvsscode>      <severity>Severe</severity>      <Description>nginx (aka Engine X) 0.1.0至0.4.14版本, 0.5.x至0.5.38版本, 0.6.x至0.6.39版本, 0.7.x至0.7.62版本,和0.8.x至0.8.14版本的src/http/ngx_http_parse.c，能让远程攻击者通过长URL来触发拒绝服务（空指针引用和工作进程崩溃）。</Description>      <name>Nginx: 空指针引用漏洞(CVE-2009-3896)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid_id="GVID-100988" id="nginx-cve-2009-3898" modified="2015-02-13" pocid="100988" published="2009-11-24" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-200911-243</cnnvd>      <cvsscode>5.0</cvsscode>      <severity>Severe</severity>      <Description>nginx (aka Engine X) 0.1.0至0.4.14版本, 0.5.x至0.5.38版本, 0.6.x至0.6.39版本, 0.7.x至0.7.62版本,和0.8.x至0.8.14版本的src/http/ngx_http_parse.c，能让远程攻击者通过长URL来触发拒绝服务（空指针引用和工作进程崩溃）。</Description>      <name>Nginx: 空指针引用漏洞(CVE-2009-3896)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid="GVID-100005" modified="2015-02-13" pocid="nginx-cve-2009-3898" published="2009-11-24" version="2.0">      
         
         
         <cvss>(AV:N/AC:M/Au:S/C:P/I:P/A:N)</cvss>      
@@ -211,7 +211,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-200911-245</cnnvd>      <cvsscode>4.9</cvsscode>      <severity>Severe</severity>      <Description>nginx (aka Engine X) 0.7.63之前版本, 和0.8.x至0.8.17版本中的src/http/modules/ngx_http_dav_module.c存在目录遍历漏洞，允许远程认证用户通过用于WebDAV (1)复制或(2)移动方式的目标HTTP标头中.. (点 点)来创建或覆盖任意文件。</Description>      <name>Nginx: 目录遍历漏洞(CVE-2009-3898)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid_id="GVID-100989" id="nginx-cve-2010-2263" modified="2014-01-27" pocid="100989" published="2010-06-15" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-200911-245</cnnvd>      <cvsscode>4.9</cvsscode>      <severity>Severe</severity>      <Description>nginx (aka Engine X) 0.7.63之前版本, 和0.8.x至0.8.17版本中的src/http/modules/ngx_http_dav_module.c存在目录遍历漏洞，允许远程认证用户通过用于WebDAV (1)复制或(2)移动方式的目标HTTP标头中.. (点 点)来创建或覆盖任意文件。</Description>      <name>Nginx: 目录遍历漏洞(CVE-2009-3898)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid="GVID-100006" modified="2014-01-27" pocid="nginx-cve-2010-2263" published="2010-06-15" version="2.0">      
         
         
         <cvss>(AV:N/AC:L/Au:N/C:P/I:N/A:N)</cvss>      
@@ -241,7 +241,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201006-224</cnnvd>      <cvsscode>5.0</cvsscode>      <severity>Severe</severity>      <Description>Nginx的0.8至0.8.40版本和0.7至0.7.66版本，在Windows上运行时，允许远程攻击者通过附加 ::$DATA到URI获取源代码或在Web文档root目录的任意文件未解析的内容。</Description>      <name>Nginx: Windows文件默认流存在漏洞(CVE-2010-2263)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid_id="GVID-100990" id="nginx-cve-2010-2266" modified="2014-01-27" pocid="100990" published="2010-06-15" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201006-224</cnnvd>      <cvsscode>5.0</cvsscode>      <severity>Severe</severity>      <Description>Nginx的0.8至0.8.40版本和0.7至0.7.66版本，在Windows上运行时，允许远程攻击者通过附加 ::$DATA到URI获取源代码或在Web文档root目录的任意文件未解析的内容。</Description>      <name>Nginx: Windows文件默认流存在漏洞(CVE-2010-2263)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid="GVID-100007" modified="2014-01-27" pocid="nginx-cve-2010-2266" published="2010-06-15" version="2.0">      
         
         
         <cvss>(AV:N/AC:L/Au:N/C:N/I:N/A:P)</cvss>      
@@ -271,7 +271,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201006-226</cnnvd>      <cvsscode>5.0</cvsscode>      <severity>Severe</severity>      <Description>nginx 0.8.36版本允许远程攻击者通过触发内存破坏某些编码的目录遍历序列造成拒绝服务（崩溃），已被&amp;quot;%c0.%c0.&amp;quot; 序列证明。</Description>      <name>Nginx: Windows中存在无效UTF-8序列(CVE-2010-2266)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid_id="GVID-100991" id="nginx-cve-2011-4315" modified="2015-02-13" pocid="100991" published="2011-12-08" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201006-226</cnnvd>      <cvsscode>5.0</cvsscode>      <severity>Severe</severity>      <Description>nginx 0.8.36版本允许远程攻击者通过触发内存破坏某些编码的目录遍历序列造成拒绝服务（崩溃），已被&amp;quot;%c0.%c0.&amp;quot; 序列证明。</Description>      <name>Nginx: Windows中存在无效UTF-8序列(CVE-2010-2266)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid="GVID-100008" modified="2015-02-13" pocid="nginx-cve-2011-4315" published="2011-12-08" version="2.0">      
         
         
         <cvss>(AV:N/AC:L/Au:N/C:N/I:N/A:P)</cvss>      
@@ -301,7 +301,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201111-315</cnnvd>      <cvsscode>5.0</cvsscode>      <severity>Severe</severity>      <Description>nginx 1.0.10之前版本中的core/ngx_resolver.c中的compression-pointer处理存在基于堆的缓冲区溢出漏洞允许远程解析器通过长时间相应来导致拒绝服务(后台程序崩溃)或可能产生其他未指定影响。</Description>      <name>Nginx: 解析器存在缓冲区溢出(CVE-2011-4315)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid_id="GVID-100992" id="nginx-cve-2011-4963" modified="2014-01-27" pocid="100992" published="2012-07-26" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201111-315</cnnvd>      <cvsscode>5.0</cvsscode>      <severity>Severe</severity>      <Description>nginx 1.0.10之前版本中的core/ngx_resolver.c中的compression-pointer处理存在基于堆的缓冲区溢出漏洞允许远程解析器通过长时间相应来导致拒绝服务(后台程序崩溃)或可能产生其他未指定影响。</Description>      <name>Nginx: 解析器存在缓冲区溢出(CVE-2011-4315)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid="GVID-100009" modified="2014-01-27" pocid="nginx-cve-2011-4963" published="2012-07-26" version="2.0">      
         
         
         <cvss>(AV:N/AC:L/Au:N/C:P/I:N/A:N)</cvss>      
@@ -329,7 +329,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201207-551</cnnvd>      <cvsscode>5.0</cvsscode>      <severity>Severe</severity>      <Description>nginx/Windows的1.3.x至1.3.1版本和1.2.x至1.2.1版本允许远程攻击者通过（1）尾随（点）或（2）请求里的某些&amp;quot; $ index_allocation&amp;quot;序列，绕过预期的访问限制和访问限制的文件 。</Description>      <name>Nginx: Windows目录别名存在漏洞(CVE-2011-4963)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid_id="GVID-100993" id="nginx-cve-2012-1180" modified="2018-01-05" pocid="100993" published="2012-04-17" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201207-551</cnnvd>      <cvsscode>5.0</cvsscode>      <severity>Severe</severity>      <Description>nginx/Windows的1.3.x至1.3.1版本和1.2.x至1.2.1版本允许远程攻击者通过（1）尾随（点）或（2）请求里的某些&amp;quot; $ index_allocation&amp;quot;序列，绕过预期的访问限制和访问限制的文件 。</Description>      <name>Nginx: Windows目录别名存在漏洞(CVE-2011-4963)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid="GVID-100010" modified="2018-01-05" pocid="nginx-cve-2012-1180" published="2012-04-17" version="2.0">      
         
         
         <cvss>(AV:N/AC:L/Au:N/C:P/I:N/A:N)</cvss>      
@@ -361,7 +361,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201203-375</cnnvd>      <cvsscode>5.0</cvsscode>      <severity>Severe</severity>      <Description>在nginx 1.0.14之前版本和1.1.x至1.1.17版本存在use-after-free漏洞允许远程HTTP服务器通过特制后端进程内存响应，结合客户要求获取敏感信息。</Description>      <name>Nginx: 特制后门响应引起内存泄露(CVE-2012-1180)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid_id="GVID-100994" id="nginx-cve-2012-2089" modified="2017-12-21" pocid="100994" published="2012-04-17" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201203-375</cnnvd>      <cvsscode>5.0</cvsscode>      <severity>Severe</severity>      <Description>在nginx 1.0.14之前版本和1.1.x至1.1.17版本存在use-after-free漏洞允许远程HTTP服务器通过特制后端进程内存响应，结合客户要求获取敏感信息。</Description>      <name>Nginx: 特制后门响应引起内存泄露(CVE-2012-1180)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid="GVID-100011" modified="2017-12-21" pocid="nginx-cve-2012-2089" published="2012-04-17" version="2.0">      
         
         
         <cvss>(AV:N/AC:H/Au:N/C:P/I:P/A:P)</cvss>      
@@ -394,7 +394,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201204-276</cnnvd>      <cvsscode>5.1</cvsscode>      <severity>Severe</severity>      <Description>nginx 1.0.7至1.0.14 和 1.1.3至1.1.18中ngx_http_mp4_module模块中gx_http_mp4_module.c上的缓冲器溢出，使用mp4指令时，允许远程攻击者通过特制的MP4文件导致拒绝服务(内存损坏)或可能执行任意代码。</Description>      <name>Nginx: ngx_http_mp4_module存在缓冲区溢出 (CVE-2012-2089)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid_id="GVID-100995" id="nginx-cve-2013-2028" modified="2017-01-03" pocid="100995" published="2013-07-19" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201204-276</cnnvd>      <cvsscode>5.1</cvsscode>      <severity>Severe</severity>      <Description>nginx 1.0.7至1.0.14 和 1.1.3至1.1.18中ngx_http_mp4_module模块中gx_http_mp4_module.c上的缓冲器溢出，使用mp4指令时，允许远程攻击者通过特制的MP4文件导致拒绝服务(内存损坏)或可能执行任意代码。</Description>      <name>Nginx: ngx_http_mp4_module存在缓冲区溢出 (CVE-2012-2089)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid="GVID-100012" modified="2017-01-03" pocid="nginx-cve-2013-2028" published="2013-07-19" version="2.0">      
         
         
         <cvss>(AV:N/AC:L/Au:N/C:P/I:P/A:P)</cvss>      
@@ -422,7 +422,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201305-143</cnnvd>      <cvsscode>7.5</cvsscode>      <severity>Critical</severity>      <Description>nginx 1.3.9至1.4.0中http/ngx_http_parse.c中ngx_http_parse_chunked函数允许远程攻击者通过有较大的块大小的分块Transfer-Encoding请求来导致拒绝服务(崩溃)和执行任意代码，触发整数签名错误和基于堆的缓冲区溢出漏洞。</Description>      <name>Nginx: 特制请求引起基于栈的缓冲区溢出(CVE-2013-2028)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid_id="GVID-100996" id="nginx-cve-2013-2070" modified="2015-02-13" pocid="100996" published="2013-07-19" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201305-143</cnnvd>      <cvsscode>7.5</cvsscode>      <severity>Critical</severity>      <Description>nginx 1.3.9至1.4.0中http/ngx_http_parse.c中ngx_http_parse_chunked函数允许远程攻击者通过有较大的块大小的分块Transfer-Encoding请求来导致拒绝服务(崩溃)和执行任意代码，触发整数签名错误和基于堆的缓冲区溢出漏洞。</Description>      <name>Nginx: 特制请求引起基于栈的缓冲区溢出(CVE-2013-2028)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid="GVID-100013" modified="2015-02-13" pocid="nginx-cve-2013-2070" published="2013-07-19" version="2.0">      
         
         
         <cvss>(AV:N/AC:M/Au:N/C:P/I:N/A:P)</cvss>      
@@ -455,7 +455,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201305-235</cnnvd>      <cvsscode>5.8</cvsscode>      <severity>Severe</severity>      <Description>nginx 1.1.4至1.2.8版本和1.3.0至1.4.0版本的http/modules/ngx_http_proxy_module.c，当proxy_pass用于与不可信的HTTP服务器。允许远程攻击者通过特制的代理响应导致拒绝服务（崩溃），并从工作进程内存获取敏感信息。此漏洞与CVE-2013-2028类似。</Description>      <name>Nginx: 特制HTTP后门响应引起内存泄露(CVE-2013-2070)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid_id="GVID-100997" id="nginx-cve-2013-4547" modified="2015-02-13" pocid="100997" published="2013-11-23" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201305-235</cnnvd>      <cvsscode>5.8</cvsscode>      <severity>Severe</severity>      <Description>nginx 1.1.4至1.2.8版本和1.3.0至1.4.0版本的http/modules/ngx_http_proxy_module.c，当proxy_pass用于与不可信的HTTP服务器。允许远程攻击者通过特制的代理响应导致拒绝服务（崩溃），并从工作进程内存获取敏感信息。此漏洞与CVE-2013-2028类似。</Description>      <name>Nginx: 特制HTTP后门响应引起内存泄露(CVE-2013-2070)</name>   </Vulnerability>   <Vulnerability added="2014-01-27" gvid="GVID-100014" modified="2015-02-13" pocid="nginx-cve-2013-4547" published="2013-11-23" version="2.0">      
         
         
         <cvss>(AV:N/AC:L/Au:N/C:P/I:P/A:P)</cvss>      
@@ -484,7 +484,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201311-336</cnnvd>      <cvsscode>7.5</cvsscode>      <severity>Critical</severity>      <Description>nginx的0.8.41至1.4.3版本和1.5.x至1.5.7版本，允许远程攻击者通过在URI转义空格字符绕过预期的限制。</Description>      <name>Nginx: 请求行解析漏洞(CVE-2013-4547)</name>   </Vulnerability>   <Vulnerability added="2014-04-10" gvid_id="GVID-100998" id="nginx-cve-2014-0088" modified="2014-05-02" pocid="100998" published="2014-04-10" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201311-336</cnnvd>      <cvsscode>7.5</cvsscode>      <severity>Critical</severity>      <Description>nginx的0.8.41至1.4.3版本和1.5.x至1.5.7版本，允许远程攻击者通过在URI转义空格字符绕过预期的限制。</Description>      <name>Nginx: 请求行解析漏洞(CVE-2013-4547)</name>   </Vulnerability>   <Vulnerability added="2014-04-10" gvid="GVID-100015" modified="2014-05-02" pocid="nginx-cve-2014-0088" published="2014-04-10" version="2.0">      
         
         
         <cvss>(AV:N/AC:L/Au:N/C:P/I:P/A:P)</cvss>      
@@ -510,7 +510,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201404-576</cnnvd>      <cvsscode>7.5</cvsscode>      <severity>Critical</severity>      <Description>nginx1.5.10至1.5.11版本的ngx_http_spdy_module模块的SPDY实施，当在32位平台上运行时，允许远程攻击者通过特制的请求执行任意代码。</Description>      <name>Nginx: SPDY内存损坏(CVE-2014-0088)</name>   </Vulnerability>   <Vulnerability added="2014-04-10" gvid_id="GVID-100999" id="nginx-cve-2014-0133" modified="2015-06-08" pocid="100999" published="2014-03-28" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201404-576</cnnvd>      <cvsscode>7.5</cvsscode>      <severity>Critical</severity>      <Description>nginx1.5.10至1.5.11版本的ngx_http_spdy_module模块的SPDY实施，当在32位平台上运行时，允许远程攻击者通过特制的请求执行任意代码。</Description>      <name>Nginx: SPDY内存损坏(CVE-2014-0088)</name>   </Vulnerability>   <Vulnerability added="2014-04-10" gvid="GVID-100016" modified="2015-06-08" pocid="nginx-cve-2014-0133" published="2014-03-28" version="2.0">      
         
         
         <cvss>(AV:N/AC:H/Au:N/C:P/I:P/A:P)</cvss>      
@@ -540,7 +540,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201403-536</cnnvd>      <cvsscode>5.1</cvsscode>      <severity>Severe</severity>      <Description>nginx 1.3.15至1.4.7版本和1.5.x至1.5.12版本的中SPDY实施存在基于堆的缓冲区溢出漏洞允许远程攻击者通过特制的请求来执行任意代码。</Description>      <name>Nginx: SPDY堆缓冲区溢出(CVE-2014-0133)</name>   </Vulnerability>   <Vulnerability added="2014-08-08" gvid_id="GVID-101000" id="nginx-cve-2014-3556" modified="2015-01-05" pocid="101000" published="2014-08-08" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201403-536</cnnvd>      <cvsscode>5.1</cvsscode>      <severity>Severe</severity>      <Description>nginx 1.3.15至1.4.7版本和1.5.x至1.5.12版本的中SPDY实施存在基于堆的缓冲区溢出漏洞允许远程攻击者通过特制的请求来执行任意代码。</Description>      <name>Nginx: SPDY堆缓冲区溢出(CVE-2014-0133)</name>   </Vulnerability>   <Vulnerability added="2014-08-08" gvid="GVID-100017" modified="2015-01-05" pocid="nginx-cve-2014-3556" published="2014-08-08" version="2.0">      
         
         
         <cvss>(AV:N/AC:M/Au:N/C:P/I:N/A:N)</cvss>      
@@ -569,7 +569,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201408-095</cnnvd>      <cvsscode>4.3</cvsscode>      <severity>Severe</severity>      <Description>nginx 1.5.x和1.6.x至1.6.1版本和1.7.x至1.7.4版本的中SMTP代理中mail/ngx_mail_smtp_handler.c中STARTTLS实现不正确限制I/O缓冲区，这允许中间人攻击者通过发送明文明命令，其是TLS就位后处理的，来插入命令道加密SMTP会话中，与&amp;quot;plaintext command injection&amp;quot;攻击有关，此漏洞与CVE-2011-0144类似。</Description>      <name>Nginx: STARTTLS命令注入(CVE-2014-3556)</name>   </Vulnerability>   <Vulnerability added="2014-09-18" gvid_id="GVID-101001" id="nginx-cve-2014-3616" modified="2014-12-11" pocid="101001" published="2014-09-18" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201408-095</cnnvd>      <cvsscode>4.3</cvsscode>      <severity>Severe</severity>      <Description>nginx 1.5.x和1.6.x至1.6.1版本和1.7.x至1.7.4版本的中SMTP代理中mail/ngx_mail_smtp_handler.c中STARTTLS实现不正确限制I/O缓冲区，这允许中间人攻击者通过发送明文明命令，其是TLS就位后处理的，来插入命令道加密SMTP会话中，与&amp;quot;plaintext command injection&amp;quot;攻击有关，此漏洞与CVE-2011-0144类似。</Description>      <name>Nginx: STARTTLS命令注入(CVE-2014-3556)</name>   </Vulnerability>   <Vulnerability added="2014-09-18" gvid="GVID-100018" modified="2014-12-11" pocid="nginx-cve-2014-3616" published="2014-09-18" version="2.0">      
         
         
         <cvss>(AV:N/AC:M/Au:N/C:N/I:P/A:N)</cvss>      
@@ -598,7 +598,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201410-1268</cnnvd>      <cvsscode>4.3</cvsscode>      <severity>Severe</severity>      <Description>多个服务器共享ssl_session_ticket_key时，nginx 0.5.6至1.7.4版本，可以重用一个和上下文无关缓存SSL会话，它允许远程攻击者用某些权限进行&amp;quot;virtual host confusion&amp;quot;攻击。</Description>      <name>Nginx: SSL会话重用漏洞(CVE-2014-3616)</name>   </Vulnerability>   <Vulnerability added="2016-01-29" gvid_id="GVID-101002" id="nginx-cve-2016-0742" modified="2018-01-08" pocid="101002" published="2016-01-29" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201410-1268</cnnvd>      <cvsscode>4.3</cvsscode>      <severity>Severe</severity>      <Description>多个服务器共享ssl_session_ticket_key时，nginx 0.5.6至1.7.4版本，可以重用一个和上下文无关缓存SSL会话，它允许远程攻击者用某些权限进行&amp;quot;virtual host confusion&amp;quot;攻击。</Description>      <name>Nginx: SSL会话重用漏洞(CVE-2014-3616)</name>   </Vulnerability>   <Vulnerability added="2016-01-29" gvid="GVID-100019" modified="2018-01-08" pocid="nginx-cve-2016-0742" published="2016-01-29" version="2.0">      
         
         
         <cvss>(AV:N/AC:L/Au:N/C:N/I:N/A:P)</cvss>      
@@ -631,7 +631,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201602-057</cnnvd>      <cvsscode>5.0</cvsscode>      <severity>Severe</severity>      <Description>nginx 1.8.1之前版本和1.9.x至1.9.10版本的解析器允许远程攻击自通过特制的UDP DNS 响应导致拒绝服务（空指针引用和工作进程崩溃）。</Description>      <name>Nginx: 解析器中无效指针引用(CVE-2016-0742)</name>   </Vulnerability>   <Vulnerability added="2016-01-29" gvid_id="GVID-101003" id="nginx-cve-2016-0746" modified="2018-03-26" pocid="101003" published="2016-01-29" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201602-057</cnnvd>      <cvsscode>5.0</cvsscode>      <severity>Severe</severity>      <Description>nginx 1.8.1之前版本和1.9.x至1.9.10版本的解析器允许远程攻击自通过特制的UDP DNS 响应导致拒绝服务（空指针引用和工作进程崩溃）。</Description>      <name>Nginx: 解析器中无效指针引用(CVE-2016-0742)</name>   </Vulnerability>   <Vulnerability added="2016-01-29" gvid="GVID-100020" modified="2018-03-26" pocid="nginx-cve-2016-0746" published="2016-01-29" version="2.0">      
         
         
         <cvss>(AV:N/AC:L/Au:N/C:P/I:P/A:P)</cvss>      
@@ -664,7 +664,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201602-058</cnnvd>      <cvsscode>7.5</cvsscode>      <severity>Critical</severity>      <Description>nginx 0.6.18到1.8.0中的解析程序中的使用后释放漏洞以及1.9.10之前的1.9.x允许远程攻击者导致拒绝服务（工作进程崩溃）或可能通过不确定的其他影响 与CNAME响应处理相关的精心设计的DNS响应。</Description>      <name>Nginx: 解析器处理CNAME响应存在Use-after-free漏洞(CVE-2016-0746)</name>   </Vulnerability>   <Vulnerability added="2016-01-29" gvid_id="GVID-101004" id="nginx-cve-2016-0747" modified="2018-01-08" pocid="101004" published="2016-01-29" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201602-058</cnnvd>      <cvsscode>7.5</cvsscode>      <severity>Critical</severity>      <Description>nginx 0.6.18到1.8.0中的解析程序中的使用后释放漏洞以及1.9.10之前的1.9.x允许远程攻击者导致拒绝服务（工作进程崩溃）或可能通过不确定的其他影响 与CNAME响应处理相关的精心设计的DNS响应。</Description>      <name>Nginx: 解析器处理CNAME响应存在Use-after-free漏洞(CVE-2016-0746)</name>   </Vulnerability>   <Vulnerability added="2016-01-29" gvid="GVID-100021" modified="2018-01-08" pocid="nginx-cve-2016-0747" published="2016-01-29" version="2.0">      
         
         
         <cvss>(AV:N/AC:L/Au:N/C:N/I:N/A:P)</cvss>      
@@ -696,7 +696,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201602-059</cnnvd>      <cvsscode>5.0</cvsscode>      <severity>Severe</severity>      <Description>nginx 1.8.1之前版本和1.9.x至1.9.10版本的解析器未合理限制CNAME解析，这允远程攻击者通过与任意名称解析相关的向量导致拒绝服务（工作进程资源消耗）。</Description>      <name>Nginx: 解析器中CNAME解析限制不够(CVE-2016-0747)</name>   </Vulnerability>   <Vulnerability added="2016-06-01" gvid_id="GVID-101005" id="nginx-cve-2016-4450" modified="2018-01-08" pocid="101005" published="2016-06-01" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201602-059</cnnvd>      <cvsscode>5.0</cvsscode>      <severity>Severe</severity>      <Description>nginx 1.8.1之前版本和1.9.x至1.9.10版本的解析器未合理限制CNAME解析，这允远程攻击者通过与任意名称解析相关的向量导致拒绝服务（工作进程资源消耗）。</Description>      <name>Nginx: 解析器中CNAME解析限制不够(CVE-2016-0747)</name>   </Vulnerability>   <Vulnerability added="2016-06-01" gvid="GVID-100022" modified="2018-01-08" pocid="nginx-cve-2016-4450" published="2016-06-01" version="2.0">      
         
         
         <cvss>(AV:N/AC:L/Au:N/C:N/I:N/A:P)</cvss>      
@@ -729,7 +729,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201606-010</cnnvd>      <cvsscode>5.0</cvsscode>      <severity>Severe</severity>      <Description>nginx 1.10.1之前版本和1.11.x至1.11.1版本的os/unix/ngx_files.c允许远程攻击者通过特制的请求导致拒绝服务（空指针引用和工作进程崩溃），这涉及将请求正文写入临时文件。</Description>      <name>Nginx: 写入客户端请求主体存在空指针引用(CVE-2016-4450)</name>   </Vulnerability>   <Vulnerability added="2017-07-12" gvid_id="GVID-101006" id="nginx-cve-2017-7529" modified="2018-01-08" pocid="101006" published="2017-07-12" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201606-010</cnnvd>      <cvsscode>5.0</cvsscode>      <severity>Severe</severity>      <Description>nginx 1.10.1之前版本和1.11.x至1.11.1版本的os/unix/ngx_files.c允许远程攻击者通过特制的请求导致拒绝服务（空指针引用和工作进程崩溃），这涉及将请求正文写入临时文件。</Description>      <name>Nginx: 写入客户端请求主体存在空指针引用(CVE-2016-4450)</name>   </Vulnerability>   <Vulnerability added="2017-07-12" gvid="GVID-100023" modified="2018-01-08" pocid="nginx-cve-2017-7529" published="2017-07-12" version="2.0">      
         
         <severity>5</severity>      
         <cvss>(AV:N/AC:L/Au:N/C:P/I:N/A:N)</cvss>      
@@ -760,7 +760,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201707-563</cnnvd>      <name>Nginx: 範圍過濾器中的整數溢出 (CVE-2017-7529)</name>      <Description>Nginx版本从0.5.6到1.53.2都容易受到nginx范围过滤器模块中的整数溢出漏洞的影响,从而导致由特制请求触发的潜在敏感信息洩漏.</Description>   </Vulnerability>   <Vulnerability added="2018-11-07" gvid_id="GVID-101007" id="nginx-cve-2018-16843" modified="2018-12-13" pocid="101007" published="2018-11-07" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201707-563</cnnvd>      <name>Nginx: 範圍過濾器中的整數溢出 (CVE-2017-7529)</name>      <Description>Nginx版本从0.5.6到1.53.2都容易受到nginx范围过滤器模块中的整数溢出漏洞的影响,从而导致由特制请求触发的潜在敏感信息洩漏.</Description>   </Vulnerability>   <Vulnerability added="2018-11-07" gvid="GVID-100024" modified="2018-12-13" pocid="nginx-cve-2018-16843" published="2018-11-07" version="2.0">      
         
         
         <cvss>(AV:N/AC:L/Au:N/C:N/I:N/A:C)</cvss>      
@@ -795,7 +795,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201811-131</cnnvd>      <cvsscode>7.8</cvsscode>      <severity>Critical</severity>      <Description>nginx before versions 1.15.6 and 1.14.1 has a vulnerability in the implementation of HTTP/2 that can allow for excessive memory consumption. This issue affects nginx compiled with the ngx_http_v2_module (not compiled by default) if the &amp;#39;http2&amp;#39; option of the &amp;#39;listen&amp;#39; directive is used in a configuration file.</Description>      <name>Nginx:HTTP/2中的内存使用率过高(CVE-2018-16843)</name>   </Vulnerability>   <Vulnerability added="2018-11-07" gvid_id="GVID-101008" id="nginx-cve-2018-16844" modified="2018-12-13" pocid="101008" published="2018-11-07" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201811-131</cnnvd>      <cvsscode>7.8</cvsscode>      <severity>Critical</severity>      <Description>nginx before versions 1.15.6 and 1.14.1 has a vulnerability in the implementation of HTTP/2 that can allow for excessive memory consumption. This issue affects nginx compiled with the ngx_http_v2_module (not compiled by default) if the &amp;#39;http2&amp;#39; option of the &amp;#39;listen&amp;#39; directive is used in a configuration file.</Description>      <name>Nginx:HTTP/2中的内存使用率过高(CVE-2018-16843)</name>   </Vulnerability>   <Vulnerability added="2018-11-07" gvid="GVID-100025" modified="2018-12-13" pocid="nginx-cve-2018-16844" published="2018-11-07" version="2.0">      
         
         
         <cvss>(AV:N/AC:L/Au:N/C:N/I:N/A:C)</cvss>      
@@ -829,7 +829,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201811-120</cnnvd>      <cvsscode>7.8</cvsscode>      <severity>Critical</severity>      <Description>nginx before versions 1.15.6 and 1.14.1 has a vulnerability in the implementation of HTTP/2 that can allow for excessive CPU usage. This issue affects nginx compiled with the ngx_http_v2_module (not compiled by default) if the &amp;#39;http2&amp;#39; option of the &amp;#39;listen&amp;#39; directive is used in a configuration file.</Description>      <name>Nginx:HTTP/2中CPU使用率过高(CVE-2018-16844)</name>   </Vulnerability>   <Vulnerability added="2018-11-07" gvid_id="GVID-101009" id="nginx-cve-2018-16845" modified="2019-02-04" pocid="101009" published="2018-11-07" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201811-120</cnnvd>      <cvsscode>7.8</cvsscode>      <severity>Critical</severity>      <Description>nginx before versions 1.15.6 and 1.14.1 has a vulnerability in the implementation of HTTP/2 that can allow for excessive CPU usage. This issue affects nginx compiled with the ngx_http_v2_module (not compiled by default) if the &amp;#39;http2&amp;#39; option of the &amp;#39;listen&amp;#39; directive is used in a configuration file.</Description>      <name>Nginx:HTTP/2中CPU使用率过高(CVE-2018-16844)</name>   </Vulnerability>   <Vulnerability added="2018-11-07" gvid="GVID-100026" modified="2019-02-04" pocid="nginx-cve-2018-16845" published="2018-11-07" version="2.0">      
         
         
         <cvss>(AV:N/AC:M/Au:N/C:P/I:N/A:P)</cvss>      
@@ -865,7 +865,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201811-119</cnnvd>      <cvsscode>5.8</cvsscode>      <severity>Severe</severity>      <Description>nginx before versions 1.15.6, 1.14.1 has a vulnerability in the ngx_http_mp4_module, which might allow an attacker to cause infinite loop in a worker process, cause a worker process crash, or might result in worker process memory disclosure by using a specially crafted mp4 file. The issue only affects nginx if it is built with the ngx_http_mp4_module (the module is not built by default) and the .mp4. directive is used in the configuration file. Further, the attack is only possible if an attacker is able to trigger processing of a specially crafted mp4 file with the ngx_http_mp4_module.</Description>      <name>Nginx:ngx_http_mp4_module中的内存泄露(CVE-2018-16845)</name>   </Vulnerability>   <Vulnerability added="2019-08-14" gvid_id="GVID-101010" id="nginx-cve-2019-9511" modified="2019-09-05" pocid="101010" published="2019-08-14" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201811-119</cnnvd>      <cvsscode>5.8</cvsscode>      <severity>Severe</severity>      <Description>nginx before versions 1.15.6, 1.14.1 has a vulnerability in the ngx_http_mp4_module, which might allow an attacker to cause infinite loop in a worker process, cause a worker process crash, or might result in worker process memory disclosure by using a specially crafted mp4 file. The issue only affects nginx if it is built with the ngx_http_mp4_module (the module is not built by default) and the .mp4. directive is used in the configuration file. Further, the attack is only possible if an attacker is able to trigger processing of a specially crafted mp4 file with the ngx_http_mp4_module.</Description>      <name>Nginx:ngx_http_mp4_module中的内存泄露(CVE-2018-16845)</name>   </Vulnerability>   <Vulnerability added="2019-08-14" gvid="GVID-100027" modified="2019-09-05" pocid="nginx-cve-2019-9511" published="2019-08-14" version="2.0">      
         
         
         <cvss>(AV:N/AC:L/Au:N/C:N/I:N/A:C)</cvss>      
@@ -899,7 +899,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201908-924</cnnvd>      <cvsscode>7.8</cvsscode>      <severity>Critical</severity>      <Description>Some HTTP/2 implementations are vulnerable to window size manipulation and stream prioritization manipulation, potentially leading to a denial of service. The attacker requests a large amount of data from a specified resource over multiple streams. They manipulate window size and stream priority to force the server to queue the data in 1-byte chunks. Depending on how efficiently this data is queued, this can consume excess CPU, memory, or both.</Description>      <name>Nginx :  HTTP/2小窗口更新中的CPU使用率过高 (CVE-2019-9511)</name>   </Vulnerability>   <Vulnerability added="2019-08-14" gvid_id="GVID-101011" id="nginx-cve-2019-9513" modified="2019-09-05" pocid="101011" published="2019-08-14" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201908-924</cnnvd>      <cvsscode>7.8</cvsscode>      <severity>Critical</severity>      <Description>Some HTTP/2 implementations are vulnerable to window size manipulation and stream prioritization manipulation, potentially leading to a denial of service. The attacker requests a large amount of data from a specified resource over multiple streams. They manipulate window size and stream priority to force the server to queue the data in 1-byte chunks. Depending on how efficiently this data is queued, this can consume excess CPU, memory, or both.</Description>      <name>Nginx :  HTTP/2小窗口更新中的CPU使用率过高 (CVE-2019-9511)</name>   </Vulnerability>   <Vulnerability added="2019-08-14" gvid="GVID-100028" modified="2019-09-05" pocid="nginx-cve-2019-9513" published="2019-08-14" version="2.0">      
         
         
         <cvss>(AV:N/AC:L/Au:N/C:N/I:N/A:C)</cvss>      
@@ -933,7 +933,7 @@
            </NetworkService>      </Check>      <Solutions>         
            
            
-         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201908-935</cnnvd>      <cvsscode>7.8</cvsscode>      <severity>Critical</severity>      <Description>Some HTTP/2 implementations are vulnerable to resource loops, potentially leading to a denial of service. The attacker creates multiple request streams and continually shuffles the priority of the streams in a way that causes substantial churn to the priority tree. This can consume excess CPU.</Description>      <name>Nginx : 优先级更改的HTTP/2中CPU使用率过高(CVE-2019-9513)</name>   </Vulnerability>   <Vulnerability added="2019-08-14" gvid_id="GVID-101012" id="nginx-cve-2019-9516" modified="2019-08-26" pocid="101012" published="2019-08-14" version="2.0">      
+         升級到最新版本的 nginx,下載並套用更新:http://nginx.org/en/download.html      </Solutions>      <cnnvd>CNNVD-201908-935</cnnvd>      <cvsscode>7.8</cvsscode>      <severity>Critical</severity>      <Description>Some HTTP/2 implementations are vulnerable to resource loops, potentially leading to a denial of service. The attacker creates multiple request streams and continually shuffles the priority of the streams in a way that causes substantial churn to the priority tree. This can consume excess CPU.</Description>      <name>Nginx : 优先级更改的HTTP/2中CPU使用率过高(CVE-2019-9513)</name>   </Vulnerability>   <Vulnerability added="2019-08-14" gvid="GVID-100029" modified="2019-08-26" pocid="nginx-cve-2019-9516" published="2019-08-14" version="2.0">      
         
         
         <cvss>(AV:N/AC:L/Au:N/C:N/I:N/A:C)</cvss>      
